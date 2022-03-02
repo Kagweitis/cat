@@ -8,14 +8,21 @@
     <body>
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">  
     <style>
+        .small-image{
+          width: auto
+        }
         .para{
             color: red;
             font-size: 25px;
             font-family: monospace;
         }
+    
         h2{
-            font-family: Lobster;
+            font-family: Lobster, monospace; 
             color: blue;
+            border-color: blue;
+            border-width: 5px;
+            border-style: solid;
         }
     </style>
 
@@ -23,7 +30,7 @@
 <main>
   <p class="para">Click here to view more <a href="#">cat photos</a>.</p>
   
-  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+  <a href="#"><img class="small-image" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
   
   <div>
     <p class="para">Things cats love:</p>
